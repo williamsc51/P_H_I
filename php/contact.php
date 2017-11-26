@@ -9,10 +9,10 @@ $lastn = $_POST["lname"];
 $contact = $_POST["contact"];
 $email = $_POST["email"];
 
-$message = $firstn
-$message .= $lastn
-$message .= $contact
-$message .= $email
+$message = $firstn;
+$message .= $lastn;
+$message .= $contact;
+$message .= $email;
 
 mail($email_to, $subject, $header, $message);
 
