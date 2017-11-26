@@ -19,13 +19,4 @@ mail($email_to, $subject, $header, $message);
 
 print "Thank you for you submission. We look forward to speaking with you soon";
 
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '<p>Hello World</p>'; ?>
- </body>
-</html>
-
 ?>
