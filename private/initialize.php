@@ -16,7 +16,7 @@
   //define("PHI_SERVER_ROOT", dirname('/kunden/homepages/45/d661400636/htdocs'));
   // $prod_root = PHI_SERVER_ROOT .'/phi/phi_git/phi/public';
   // define("WWW_ROOT", $prod_root);
-  define("WWW_ROOT", '/phi/phi_git/phi/public')
+  define("WWW_ROOT", '/phi/phi_git/phi/public');
 
   //DEVELOPMENT
   // * Can dynamically find everything in URL up to "/public"
