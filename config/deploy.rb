@@ -2,7 +2,7 @@
 lock "3.9.1"
 
 set :application, "phi"
-set :repo_url, "git@github.com:williamsc51/phi.git"
+set :repo_url, "https://github.com/williamsc51/phi.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

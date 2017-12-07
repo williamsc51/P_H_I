@@ -19,7 +19,7 @@
 
 role :app, %w{u87627064@home661400636.1and1-data.host}
 role :web, %w{u87627064@home661400636.1and1-data.host}
-#role :db, %w(swee@73.159.242.120), :primary => true
+role :db, %w(dbo713587316@db713587316.db.1and1.com), :primary => true
 set :branch, "master"
 set :deploy_to, "/kunden/homepages/45/d661400636/htdocs/phi"
 
