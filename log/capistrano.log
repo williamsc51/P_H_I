@@ -376,3 +376,142 @@
   INFO [b6f75cfc] Running /usr/bin/env echo "Branch master (at 49461a614bdf71227ca99231d0a6131880649ba8) deployed as release 20171207173343 by courtneywilliams" >> /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/revisions.log as u87627064@home661400636.1and1-data.host
  DEBUG [b6f75cfc] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases && /usr/bin/env echo "Branch master (at 49461a614bdf71227ca99231d0a6131880649ba8) deployed as release 20171207173343 by courtneywilliams" >> /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/revisions.log
   INFO [b6f75cfc] Finished in 0.425 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-07 16:45:48 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [683bb493] Running /usr/bin/env mkdir -p /tmp as u87627064@home661400636.1and1-data.host
+ DEBUG [683bb493] Command: /usr/bin/env mkdir -p /tmp
+  INFO [683bb493] Finished in 9.475 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-phi-production-courtneywilliams.sh 0.0%
+  INFO Uploading /tmp/git-ssh-phi-production-courtneywilliams.sh 100.0%
+  INFO [9b744194] Running /usr/bin/env chmod 700 /tmp/git-ssh-phi-production-courtneywilliams.sh as u87627064@home661400636.1and1-data.host
+ DEBUG [9b744194] Command: /usr/bin/env chmod 700 /tmp/git-ssh-phi-production-courtneywilliams.sh
+  INFO [9b744194] Finished in 0.282 seconds with exit status 0 (successful).
+  INFO [7e8e1445] Running /usr/bin/env git ls-remote https://github.com/williamsc51/phi.git HEAD as u87627064@home661400636.1and1-data.host
+ DEBUG [7e8e1445] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git ls-remote https://github.com/williamsc51/phi.git HEAD )
+ DEBUG [7e8e1445] 	177fb6d96995c99ed6795f788dd888836832e836	HEAD
+  INFO [7e8e1445] Finished in 0.601 seconds with exit status 0 (successful).
+  INFO [08fce048] Running /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases as u87627064@home661400636.1and1-data.host
+ DEBUG [08fce048] Command: /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases
+  INFO [08fce048] Finished in 0.281 seconds with exit status 0 (successful).
+  INFO [e0fcc923] Running /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/log /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/pids /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/cache /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/sockets /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/public/system as u87627064@home661400636.1and1-data.host
+ DEBUG [e0fcc923] Command: /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/log /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/pids /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/cache /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/sockets /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/public/system
+  INFO [e0fcc923] Finished in 0.293 seconds with exit status 0 (successful).
+ DEBUG [e5fd470e] Running [ -f /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/current/REVISION ] as u87627064@home661400636.1and1-data.host
+ DEBUG [e5fd470e] Command: [ -f /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/current/REVISION ]
+ DEBUG [e5fd470e] Finished in 0.276 seconds with exit status 0 (successful).
+ DEBUG [f10c822e] Running /usr/bin/env cat /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/current/REVISION 2>/dev/null as u87627064@home661400636.1and1-data.host
+ DEBUG [f10c822e] Command: /usr/bin/env cat /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/current/REVISION 2>/dev/null
+ DEBUG [f10c822e] 	49461a614bdf71227ca99231d0a6131880649ba8
+ DEBUG [f10c822e] Finished in 0.277 seconds with exit status 0 (successful).
+ DEBUG [94299352] Running [ -f /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo/HEAD ] as u87627064@home661400636.1and1-data.host
+ DEBUG [94299352] Command: [ -f /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo/HEAD ]
+ DEBUG [94299352] Finished in 0.267 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo
+ DEBUG [c3497eed] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [c3497eed] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo'" 1>&2; false; fi
+ DEBUG [c3497eed] Finished in 0.366 seconds with exit status 0 (successful).
+  INFO [31d945fd] Running /usr/bin/env git remote set-url origin https://github.com/williamsc51/phi.git as u87627064@home661400636.1and1-data.host
+ DEBUG [31d945fd] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git remote set-url origin https://github.com/williamsc51/phi.git )
+  INFO [31d945fd] Finished in 1.462 seconds with exit status 0 (successful).
+  INFO [edfe9f62] Running /usr/bin/env git remote update --prune as u87627064@home661400636.1and1-data.host
+ DEBUG [edfe9f62] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [edfe9f62] 	Fetching origin
+ DEBUG [edfe9f62] 	From https://github.com/williamsc51/phi
+   bf0dab0..dd6319c  dev        -> dev
+ DEBUG [edfe9f62] 	   49461a6..177fb6d  master     -> master
+ DEBUG [edfe9f62] 	 * [new ref]         refs/pull/10/head -> refs/pull/10/head
+ DEBUG [edfe9f62] 	 * [new ref]         refs/pull/6/head -> refs/pull/6/head
+ DEBUG [edfe9f62] 	 * [new ref]         refs/pull/7/head -> refs/pull/7/head
+ DEBUG [edfe9f62] 	 * [new ref]         refs/pull/8/head -> refs/pull/8/head
+ DEBUG [edfe9f62] 	 * [new ref]         refs/pull/9/head -> refs/pull/9/head
+  INFO [edfe9f62] Finished in 1.850 seconds with exit status 0 (successful).
+ DEBUG [e7e8aa7f] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [e7e8aa7f] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo'" 1>&2; false; fi
+ DEBUG [e7e8aa7f] Finished in 0.470 seconds with exit status 0 (successful).
+  INFO [bade0617] Running /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600 as u87627064@home661400636.1and1-data.host
+ DEBUG [bade0617] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600 )
+  INFO [bade0617] Finished in 0.432 seconds with exit status 0 (successful).
+  INFO [1bf29379] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600 as u87627064@home661400636.1and1-data.host
+ DEBUG [1bf29379] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600 )
+  INFO [1bf29379] Finished in 0.506 seconds with exit status 0 (successful).
+ DEBUG [d81d0dc9] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [d81d0dc9] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo'" 1>&2; false; fi
+ DEBUG [d81d0dc9] Finished in 0.644 seconds with exit status 0 (successful).
+ DEBUG [8ec0e614] Running /usr/bin/env git rev-list --max-count=1 master as u87627064@home661400636.1and1-data.host
+ DEBUG [8ec0e614] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [8ec0e614] 	177fb6d96995c99ed6795f788dd888836832e836
+ DEBUG [8ec0e614] Finished in 0.991 seconds with exit status 0 (successful).
+ DEBUG [6db5d2b2] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [6db5d2b2] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600'" 1>&2; false; fi
+ DEBUG [6db5d2b2] Finished in 0.524 seconds with exit status 0 (successful).
+  INFO [178fd920] Running /usr/bin/env echo "177fb6d96995c99ed6795f788dd888836832e836" >> REVISION as u87627064@home661400636.1and1-data.host
+ DEBUG [178fd920] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600 && /usr/bin/env echo "177fb6d96995c99ed6795f788dd888836832e836" >> REVISION
+  INFO [178fd920] Finished in 0.288 seconds with exit status 0 (successful).
+  INFO [0bb2e5e0] Running /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600 /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/public as u87627064@home661400636.1and1-data.host
+ DEBUG [0bb2e5e0] Command: /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600 /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/public
+  INFO [0bb2e5e0] Finished in 0.276 seconds with exit status 0 (successful).
+ DEBUG [68382627] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/log ] as u87627064@home661400636.1and1-data.host
+ DEBUG [68382627] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/log ]
+ DEBUG [68382627] Finished in 0.285 seconds with exit status 1 (failed).
+ DEBUG [aa3120b7] Running [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/log ] as u87627064@home661400636.1and1-data.host
+ DEBUG [aa3120b7] Command: [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/log ]
+ DEBUG [aa3120b7] Finished in 0.291 seconds with exit status 0 (successful).
+  INFO [1cb41840] Running /usr/bin/env rm -rf /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/log as u87627064@home661400636.1and1-data.host
+ DEBUG [1cb41840] Command: /usr/bin/env rm -rf /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/log
+  INFO [1cb41840] Finished in 0.283 seconds with exit status 0 (successful).
+  INFO [4ba6d67c] Running /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/log /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/log as u87627064@home661400636.1and1-data.host
+ DEBUG [4ba6d67c] Command: /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/log /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/log
+  INFO [4ba6d67c] Finished in 0.282 seconds with exit status 0 (successful).
+ DEBUG [a247fbfb] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/pids ] as u87627064@home661400636.1and1-data.host
+ DEBUG [a247fbfb] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/pids ]
+ DEBUG [a247fbfb] Finished in 0.277 seconds with exit status 1 (failed).
+ DEBUG [53ace548] Running [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/pids ] as u87627064@home661400636.1and1-data.host
+ DEBUG [53ace548] Command: [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/pids ]
+ DEBUG [53ace548] Finished in 0.283 seconds with exit status 1 (failed).
+  INFO [3b38add5] Running /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/pids /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/pids as u87627064@home661400636.1and1-data.host
+ DEBUG [3b38add5] Command: /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/pids /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/pids
+  INFO [3b38add5] Finished in 0.273 seconds with exit status 0 (successful).
+ DEBUG [7bf5c7dd] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/cache ] as u87627064@home661400636.1and1-data.host
+ DEBUG [7bf5c7dd] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/cache ]
+ DEBUG [7bf5c7dd] Finished in 0.284 seconds with exit status 1 (failed).
+ DEBUG [6123aafa] Running [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/cache ] as u87627064@home661400636.1and1-data.host
+ DEBUG [6123aafa] Command: [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/cache ]
+ DEBUG [6123aafa] Finished in 0.278 seconds with exit status 1 (failed).
+  INFO [0e126c58] Running /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/cache /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/cache as u87627064@home661400636.1and1-data.host
+ DEBUG [0e126c58] Command: /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/cache /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/cache
+  INFO [0e126c58] Finished in 0.278 seconds with exit status 0 (successful).
+ DEBUG [f6a8ec65] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/sockets ] as u87627064@home661400636.1and1-data.host
+ DEBUG [f6a8ec65] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/sockets ]
+ DEBUG [f6a8ec65] Finished in 0.278 seconds with exit status 1 (failed).
+ DEBUG [f3964ce6] Running [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/sockets ] as u87627064@home661400636.1and1-data.host
+ DEBUG [f3964ce6] Command: [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/sockets ]
+ DEBUG [f3964ce6] Finished in 0.276 seconds with exit status 1 (failed).
+  INFO [3ce2959f] Running /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/sockets /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/sockets as u87627064@home661400636.1and1-data.host
+ DEBUG [3ce2959f] Command: /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/tmp/sockets /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/tmp/sockets
+  INFO [3ce2959f] Finished in 0.288 seconds with exit status 0 (successful).
+ DEBUG [67083214] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/public/system ] as u87627064@home661400636.1and1-data.host
+ DEBUG [67083214] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/public/system ]
+ DEBUG [67083214] Finished in 0.274 seconds with exit status 1 (failed).
+ DEBUG [c1cfdf7c] Running [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/public/system ] as u87627064@home661400636.1and1-data.host
+ DEBUG [c1cfdf7c] Command: [ -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/public/system ]
+ DEBUG [c1cfdf7c] Finished in 0.277 seconds with exit status 1 (failed).
+  INFO [be792f1e] Running /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/public/system /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/public/system as u87627064@home661400636.1and1-data.host
+ DEBUG [be792f1e] Command: /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/shared/public/system /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600/public/system
+  INFO [be792f1e] Finished in 0.284 seconds with exit status 0 (successful).
+  INFO [5051df16] Running /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600 /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/current as u87627064@home661400636.1and1-data.host
+ DEBUG [5051df16] Command: /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/20171207214600 /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/current
+  INFO [5051df16] Finished in 0.282 seconds with exit status 0 (successful).
+  INFO [152d4129] Running /usr/bin/env mv /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/current /kunden/homepages/45/d661400636/htdocs/phi/phi_cap as u87627064@home661400636.1and1-data.host
+ DEBUG [152d4129] Command: /usr/bin/env mv /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases/current /kunden/homepages/45/d661400636/htdocs/phi/phi_cap
+  INFO [152d4129] Finished in 0.286 seconds with exit status 0 (successful).
+ DEBUG [15e6a59b] Running /usr/bin/env ls -x /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases as u87627064@home661400636.1and1-data.host
+ DEBUG [15e6a59b] Command: /usr/bin/env ls -x /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases
+ DEBUG [15e6a59b] 	20171207173343	20171207214600
+ DEBUG [15e6a59b] Finished in 0.286 seconds with exit status 0 (successful).
+ DEBUG [40258745] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [40258745] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases'" 1>&2; false; fi
+ DEBUG [40258745] Finished in 0.286 seconds with exit status 0 (successful).
+  INFO [9daa1c76] Running /usr/bin/env echo "Branch master (at 177fb6d96995c99ed6795f788dd888836832e836) deployed as release 20171207214600 by courtneywilliams" >> /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/revisions.log as u87627064@home661400636.1and1-data.host
+ DEBUG [9daa1c76] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/releases && /usr/bin/env echo "Branch master (at 177fb6d96995c99ed6795f788dd888836832e836) deployed as release 20171207214600 by courtneywilliams" >> /kunden/homepages/45/d661400636/htdocs/phi/phi_cap/revisions.log
+  INFO [9daa1c76] Finished in 0.285 seconds with exit status 0 (successful).

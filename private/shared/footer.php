@@ -35,12 +35,12 @@
       <div class="col-lg-3">
         <h4>Connect</h4>
           <p>
-            <img src="img/facebook.gif" width="30px" height="30px" alt="Facebook"/>
+            <img src="<?php echo url_for('/img/facebook.gif') ?>" width="30px" height="30px" alt="Facebook"/>
             Facebook
           </p>
 
           <p>
-            <img src="img/insta.png" width="30px" height="30px" alt="Instagram"/>
+            <img src="<?php echo url_for('/img/insta.png') ?>" width="30px" height="30px" alt="Instagram"/>
             Instagram
           </p>
     </div>
