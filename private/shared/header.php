@@ -5,8 +5,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PHI - <?php echo $page_title; ?></title>
-    <link rel="stylesheet" href= "<?php echo url_for('/css/bootstrap.min.css'); ?>"/>
-    <link rel="stylesheet" href="<?php echo url_for('/css/index.css'); ?>" />
+    <link rel="stylesheet" media="all" href="<?php echo url_for('/css/index.css'); ?>" />
+    <link rel="stylesheet" media="all" href="<?php echo url_for('/css/bootstrap.min.css'); ?>" />
   </head>
 
 <body>

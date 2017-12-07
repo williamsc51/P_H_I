@@ -2,6 +2,7 @@
 
 <?php $page_title = "Construction"  ?>
 <?php include(SHARED_PATH .'/header.php'); ?>
+
 <!-- ********************MAIN CONTENT*********************************-->
 
     <div class="content">
