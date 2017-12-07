@@ -13,13 +13,15 @@
   // * Use same document root as webserver
 
   //PRODUCTION
-  define("WWW_ROOT", "/");
+  //define("PHI_SERVER_ROOT", dirname('/kunden/homepages/45/d661400636/htdocs'));
+  $prod_root = PHI_SERVER_ROOT .'/phi/phi_git/phi/public';
+  define("WWW_ROOT", $prod_root);
 
   //DEVELOPMENT
   // * Can dynamically find everything in URL up to "/public"
   // $public_end = strpos($_SERVER['SCRIPT_NAME'], '/public') + 7;
   // $doc_root = substr($_SERVER['SCRIPT_NAME'], 0, $public_end);
   // define("WWW_ROOT", $doc_root);
-  //
-  // require_once('function.php');
+
+  require_once('function.php');
  ?>
