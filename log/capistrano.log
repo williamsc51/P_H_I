@@ -5,3 +5,82 @@
   INFO ---------------------------------------------------------------------------
   INFO START 2017-12-06 16:44:39 -0500 cap production deploy
   INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-06 18:45:33 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [442f6d63] Running /usr/bin/env mkdir -p /tmp as u87627064@home661400636.1and1-data.host
+ DEBUG [442f6d63] Command: /usr/bin/env mkdir -p /tmp
+  INFO [650a5996] Running /usr/bin/env #<StringIO:0x007f83104e2010> /tmp/git-ssh-phi-production-courtneywilliams.sh as u87627064@home661400636.1and1-data.host
+ DEBUG [650a5996] Command: /usr/bin/env #<StringIO:0x007f83104e2010> /tmp/git-ssh-phi-production-courtneywilliams.sh
+  INFO [a1ed798c] Running /usr/bin/env chmod 700 /tmp/git-ssh-phi-production-courtneywilliams.sh as u87627064@home661400636.1and1-data.host
+ DEBUG [a1ed798c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-phi-production-courtneywilliams.sh
+  INFO [595bff51] Running /usr/bin/env git ls-remote git@github.com:williamsc51/phi.git HEAD as u87627064@home661400636.1and1-data.host
+ DEBUG [595bff51] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git ls-remote git@github.com:williamsc51/phi.git HEAD )
+  INFO [4db9e5fb] Running /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/shared /kunden/homepages/45/d661400636/htdocs/phi/releases as u87627064@home661400636.1and1-data.host
+ DEBUG [4db9e5fb] Command: /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/shared /kunden/homepages/45/d661400636/htdocs/phi/releases
+  INFO [6ebd9d7a] Running /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/shared/log /kunden/homepages/45/d661400636/htdocs/phi/shared/tmp/pids /kunden/homepages/45/d661400636/htdocs/phi/shared/tmp/cache /kunden/homepages/45/d661400636/htdocs/phi/shared/tmp/sockets /kunden/homepages/45/d661400636/htdocs/phi/shared/public/system as u87627064@home661400636.1and1-data.host
+ DEBUG [6ebd9d7a] Command: /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/shared/log /kunden/homepages/45/d661400636/htdocs/phi/shared/tmp/pids /kunden/homepages/45/d661400636/htdocs/phi/shared/tmp/cache /kunden/homepages/45/d661400636/htdocs/phi/shared/tmp/sockets /kunden/homepages/45/d661400636/htdocs/phi/shared/public/system
+ DEBUG [f94bd9ea] Running [ -f /kunden/homepages/45/d661400636/htdocs/phi/current/REVISION ] as u87627064@home661400636.1and1-data.host
+ DEBUG [f94bd9ea] Command: [ -f /kunden/homepages/45/d661400636/htdocs/phi/current/REVISION ]
+ DEBUG [7cf08969] Running /usr/bin/env cat /kunden/homepages/45/d661400636/htdocs/phi/current/REVISION 2>/dev/null as u87627064@home661400636.1and1-data.host
+ DEBUG [7cf08969] Command: /usr/bin/env cat /kunden/homepages/45/d661400636/htdocs/phi/current/REVISION 2>/dev/null
+ DEBUG [9e7b8ac1] Running [ -f /kunden/homepages/45/d661400636/htdocs/phi/repo/HEAD ] as u87627064@home661400636.1and1-data.host
+ DEBUG [9e7b8ac1] Command: [ -f /kunden/homepages/45/d661400636/htdocs/phi/repo/HEAD ]
+  INFO The repository mirror is at /kunden/homepages/45/d661400636/htdocs/phi/repo
+ DEBUG [1177d673] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/repo'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [1177d673] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/repo'" 1>&2; false; fi
+  INFO [c5a52772] Running /usr/bin/env git remote set-url origin git@github.com:williamsc51/phi.git as u87627064@home661400636.1and1-data.host
+ DEBUG [c5a52772] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git remote set-url origin git@github.com:williamsc51/phi.git )
+  INFO [f1565963] Running /usr/bin/env git remote update --prune as u87627064@home661400636.1and1-data.host
+ DEBUG [f1565963] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [c953ff02] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/repo'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [c953ff02] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/repo'" 1>&2; false; fi
+  INFO [c11d3872] Running /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534 as u87627064@home661400636.1and1-data.host
+ DEBUG [c11d3872] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534 )
+  INFO [e2382c9e] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534 as u87627064@home661400636.1and1-data.host
+ DEBUG [e2382c9e] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534 )
+ DEBUG [bb05795f] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/repo'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [bb05795f] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/repo; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/repo'" 1>&2; false; fi
+ DEBUG [461e5bd6] Running /usr/bin/env git rev-list --max-count=1 master as u87627064@home661400636.1and1-data.host
+ DEBUG [461e5bd6] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [4697882c] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [4697882c] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534'" 1>&2; false; fi
+  INFO [fd0bc7b6] Running /usr/bin/env echo "" >> REVISION as u87627064@home661400636.1and1-data.host
+ DEBUG [fd0bc7b6] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534 && /usr/bin/env echo "" >> REVISION
+  INFO [ee28ceaf] Running /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534 /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/tmp /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/public as u87627064@home661400636.1and1-data.host
+ DEBUG [ee28ceaf] Command: /usr/bin/env mkdir -p /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534 /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/tmp /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/public
+ DEBUG [2f142e63] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/log ] as u87627064@home661400636.1and1-data.host
+ DEBUG [2f142e63] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/log ]
+ DEBUG [de4f2470] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/tmp/pids ] as u87627064@home661400636.1and1-data.host
+ DEBUG [de4f2470] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/tmp/pids ]
+ DEBUG [d4b8a796] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/tmp/cache ] as u87627064@home661400636.1and1-data.host
+ DEBUG [d4b8a796] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/tmp/cache ]
+ DEBUG [dc4f4a6b] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/tmp/sockets ] as u87627064@home661400636.1and1-data.host
+ DEBUG [dc4f4a6b] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/tmp/sockets ]
+ DEBUG [4973f0a2] Running [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/public/system ] as u87627064@home661400636.1and1-data.host
+ DEBUG [4973f0a2] Command: [ -L /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534/public/system ]
+  INFO [b56aeca4] Running /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534 /kunden/homepages/45/d661400636/htdocs/phi/releases/current as u87627064@home661400636.1and1-data.host
+ DEBUG [b56aeca4] Command: /usr/bin/env ln -s /kunden/homepages/45/d661400636/htdocs/phi/releases/20171206234534 /kunden/homepages/45/d661400636/htdocs/phi/releases/current
+  INFO [c25f315a] Running /usr/bin/env mv /kunden/homepages/45/d661400636/htdocs/phi/releases/current /kunden/homepages/45/d661400636/htdocs/phi as u87627064@home661400636.1and1-data.host
+ DEBUG [c25f315a] Command: /usr/bin/env mv /kunden/homepages/45/d661400636/htdocs/phi/releases/current /kunden/homepages/45/d661400636/htdocs/phi
+ DEBUG [a9701deb] Running /usr/bin/env ls -x /kunden/homepages/45/d661400636/htdocs/phi/releases as u87627064@home661400636.1and1-data.host
+ DEBUG [a9701deb] Command: /usr/bin/env ls -x /kunden/homepages/45/d661400636/htdocs/phi/releases
+ DEBUG [356c64ff] Running if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/releases; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/releases'" 1>&2; false; fi as u87627064@home661400636.1and1-data.host
+ DEBUG [356c64ff] Command: if test ! -d /kunden/homepages/45/d661400636/htdocs/phi/releases; then echo "Directory does not exist '/kunden/homepages/45/d661400636/htdocs/phi/releases'" 1>&2; false; fi
+  INFO [a5eaa041] Running /usr/bin/env echo "Branch master (at ) deployed as release 20171206234534 by courtneywilliams" >> /kunden/homepages/45/d661400636/htdocs/phi/revisions.log as u87627064@home661400636.1and1-data.host
+ DEBUG [a5eaa041] Command: cd /kunden/homepages/45/d661400636/htdocs/phi/releases && /usr/bin/env echo "Branch master (at ) deployed as release 20171206234534 by courtneywilliams" >> /kunden/homepages/45/d661400636/htdocs/phi/revisions.log
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-06 18:45:48 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [67cbcdd9] Running /usr/bin/env mkdir -p /tmp as u87627064@home661400636.1and1-data.host
+ DEBUG [67cbcdd9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [67cbcdd9] Finished in 18.980 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-phi-production-courtneywilliams.sh 0.0%
+  INFO Uploading /tmp/git-ssh-phi-production-courtneywilliams.sh 100.0%
+  INFO [828dc5a6] Running /usr/bin/env chmod 700 /tmp/git-ssh-phi-production-courtneywilliams.sh as u87627064@home661400636.1and1-data.host
+ DEBUG [828dc5a6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-phi-production-courtneywilliams.sh
+  INFO [828dc5a6] Finished in 0.290 seconds with exit status 0 (successful).
+  INFO [bad2a61f] Running /usr/bin/env git ls-remote git@github.com:williamsc51/phi.git HEAD as u87627064@home661400636.1and1-data.host
+ DEBUG [bad2a61f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-phi-production-courtneywilliams.sh" ; /usr/bin/env git ls-remote git@github.com:williamsc51/phi.git HEAD )
+ DEBUG [bad2a61f] 	fatal: cannot exec '/tmp/git-ssh-phi-production-courtneywilliams.sh': Permission denied
+ DEBUG [bad2a61f] 	fatal: unable to fork

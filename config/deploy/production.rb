@@ -17,9 +17,11 @@
 # property set. Specify the username and a domain or IP for the server.
 # Don't use `:all`, it's a meta role.
 
-# role :app, %w{deploy@example.com}, my_property: :my_value
-# role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
-# role :db,  %w{deploy@example.com}
+role :app, %w{u87627064@home661400636.1and1-data.host}
+role :web, %w{u87627064@home661400636.1and1-data.host}
+role :db, %w(dbo713587316@db713587316.db.1and1.com), :primary => true
+set :branch, "master"
+set :deploy_to, "/kunden/homepages/45/d661400636/htdocs/phi"
 
 
 
