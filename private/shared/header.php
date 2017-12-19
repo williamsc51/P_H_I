@@ -45,7 +45,7 @@
 
     <div class="row">
       <div class="col-md-12">
-        <div class="carousel slide" id="carousel-107197">
+        <div class="carousel slide auto" id="carousel-107197" data-ride="carousel">
           <ol class="carousel-indicators">
             <li class="active" data-slide-to="0" data-target="#carousel-107197">
             </li>

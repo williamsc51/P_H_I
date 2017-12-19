@@ -19,7 +19,7 @@
           Professional Home Improvement Construction offers the very best in roofing, flooring, bathroom, kitchen, basement and much more. Our dedicated team of experts guarantees the successfull and satisfactory completion of the job.
 				</p>
 				<p>
-					<a class="btn btn-primary btn-large" href="<?php echo url_for('/html/about.php'); ?>">Learn more</a>
+					<a class="btn btn-primary btn-large" href="html/about.html">Learn more</a>
 				</p>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
                 We take pride in documenting and showcasing our work. Take a look and see for yourself. Our professional catalog is for your viewing pleasures.
               </p>
               <p>
-                <a class="btn" href="<?php echo url_for('/html/work.php'); ?>">Learn More</a>
+                <a class="btn" href="html/work.html">Learn More</a>
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@
                 See what our customers are saying about us! We are professionals and personal. Our objective is your happiness. Share your experience with us.
               </p>
               <p>
-                <a class="btn" href="<?php echo url_for('/html/success.php'); ?>">Learn More</a>
+                <a class="btn" href="html/success.html">Learn More</a>
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@
                 <br /> <br />
               </p>
               <p>
-                 <a class="btn" href="<?php echo url_for('/html/service.php'); ?>">Learn More</a>
+                 <a class="btn" href="html/service.html">Learn More</a>
               </p>
             </div>
           </div>

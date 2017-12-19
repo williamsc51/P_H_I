@@ -77,49 +77,24 @@
       </div>
 
     <div class="row">
-  		<div class="col-md-4">
-  			<h3>
-  				Flooring
-  			</h3>
-  			<p>
-
-  			</p>
+  		<div class="col-md-2">
+  			<a href="#"><h3>Flooring</h3></a>
   		</div>
-  		<div class="col-md-4">
-  			<h3>
-  				Roofing
-  			</h3>
-  			<p>
-
-  			</p>
+  		<div class="col-md-2">
+  			<h3>Roofing</h3>
   		</div>
-  		<div class="col-md-4">
-  			<h3>
-  				Dry Wall
-  			</h3>
-  			<p>
-
-  			</p>
+  		<div class="col-md-2">
+  			<h3>Dry Wall</h3>
   		</div>
-  </div>
-
-  	<div class="row">
-  		<div class="col-md-4">
-  			<h3>
-  				Painting
-  			</h3>
-  			<p>
-
-  			</p>
+  		<div class="col-md-2">
+  			<h3>Painting</h3>
   		</div>
-  		<div class="col-md-4">
-  			<h3>
-  				Siding
-  			</h3>
-  			<p>
-
-  			</p>
+  		<div class="col-md-2">
+  			<h3>Siding</h3>
   		</div>
+      <div class="col-md-2">
+        <h3>Siding</h3>
+      </div>
   	</div>
     </div>
     </div>
