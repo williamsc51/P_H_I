@@ -54,7 +54,7 @@ We turn visions for your home into reality through our values of quality, commit
 
                 <div class="col-sm-3 figure1">
                   <div id="figure1">
-                    <img src="../img/karl.png" class="img-rounded" alt="Contractor">
+                    <img src="../img/lee.jpg" class="img-rounded" alt="Contractor">
                     <h3>Karl Williams</h3>
                   </div>
                 </div>

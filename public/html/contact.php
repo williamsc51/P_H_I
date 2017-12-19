@@ -12,7 +12,7 @@
         </p>
       </div>
 
-       <form id="form1" action="../../private/contact_form.php" method="post" class="form1">
+       <form id="form1" action="test_contact_form.php" method="post" class="form1">
          <div class="form-group row">
            <label for="fname" class="col-sm-2">Fistname</label>
            <div class="col-sm-10">
@@ -53,14 +53,14 @@
            <label for="service" class="col-sm-2">Select Service</label>
            <div class="col-sm-10">
            <select name="service" id="service">
-                <option value="defaul">Select the service request</option>
-                <option value="floor">Flooring</option>
-                <option value="roof">Roofing</option>
-                <option value="side">Siding</option>
-                <option value="bathroom">Bathroom</option>
-                <option value="kitchen">Kitchen</option>
-                <option value="basement">Basement</option>
-                <option value="other">Other</option>
+                <option value="default">Select the service request</option>
+                <option value="Flooring">Flooring</option>
+                <option value="Roofing">Roofing</option>
+                <option value="Siding">Siding</option>
+                <option value="Bathroom">Bathroom</option>
+                <option value="Kitchen">Kitchen</option>
+                <option value="Basement">Basement</option>
+                <option value="Other">Other</option>
            </select>
          </div>
          </div>
