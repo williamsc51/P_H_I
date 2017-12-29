@@ -66,7 +66,7 @@
         <h4>Enjoy</h4>
 
         <p>Become a member and enjoy upd</p>
-        <a class="btn btn-primary btn-large" href="#"> Become A Member</a></a>
+        <a class="btn btn-primary btn-large" href="<?php echo url_for('/html/member.php'); ?>"> Become A Member</a></a>
     </div>
 
   </div>
