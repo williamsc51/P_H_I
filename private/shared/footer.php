@@ -83,3 +83,7 @@
 <script type="text/javascript" src="<?php echo url_for('/js/bootstrap.js'); ?> "></script>
 </body>
 </html>
+
+<?php
+  db_disconnect($db);
+ ?>

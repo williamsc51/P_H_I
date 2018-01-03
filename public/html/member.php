@@ -1,7 +1,24 @@
 <?php require_once("../../private/initialize.php"); ?>
 
-<?php $page_title = "Successes"; ?>
+<?php $page_title = "Become a Member"; ?>
+<?php
+
+  $uname = $_POST['uname'];
+  $email = $_POST['email'];
+  $password = $_POST['password'];
+
+  $sql = "INSERT INTO users (uname,email,password) ";
+  $sql .= "VALUES (";
+  $sql .= "'". $uname ."',";
+  $sql .= "'". $email ."',";
+  $sql .= "'". $password ."'";
+  $sql .= ")";
+  $users = mysqli_query($db, $sql);
+
+ ?>
 <?php include(SHARED_PATH .'/header.php'); ?>
+
+
 
 <!-- ********************MAIN CONTENT*********************************-->
 
@@ -12,14 +29,14 @@
         </p>
       </div>
 
-       <form id="form1" action="test_contact_form.php" method="post" class="form1">
+       <form id="form1" action="member.php" method="post" class="form1">
          <div class="form-group row">
-           <label for="fname" class="col-sm-2">Username</label>
+           <label for="uname" class="col-sm-2">Username</label>
            <div class="col-sm-10">
-             <input name="fname" id="fname" type="text" maxlength="50" class="form-control" placeholder="Enter your username" />
+             <input name="uname" id="uname" type="text" maxlength="50" class="form-control" placeholder="Enter your username" />
            </div>
          </div>
-           
+
 
          <div class="form-group row">
            <label for="email" class="col-sm-2">Email</label>
@@ -31,14 +48,14 @@
          <div class="form-group row">
            <label for="email" class="col-sm-2">Password</label>
            <div class="col-sm-10">
-             <input name="email" id="email" type="password" maxlength="20" class="form-control" placeholder="Enter your password" />
+             <input name="password" id="password" type="password" maxlength="20" class="form-control" placeholder="Enter your password" />
            </div>
          </div>
 
          <div class="form-group row">
            <label for="email" class="col-sm-2">Confirm Password</label>
            <div class="col-sm-10">
-             <input name="email" id="email" type="password" maxlength="20" class="form-control" placeholder="Enter your password" />
+             <input name="con_password" id="con_password" type="password" maxlength="20" class="form-control" placeholder="Enter your password" />
            </div>
          </div>
 
